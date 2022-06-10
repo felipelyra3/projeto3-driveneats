@@ -21,7 +21,6 @@
      </div>
      <!-- FIM DO TOPO -->
     
-    
      <!-- INÍCIO DO CORPO DA PÁGINA -->
     <div class="pagina">
 
@@ -29,11 +28,21 @@
         <div class="titulo"><p>Primeiro, seu prato</p></div>
         <div class="pratos">
         <div class="container">
-            <div class="bloco">
+            <div class="bloco" onclick="esconderSelecao();">
                 <img src="/assets/images/frango_yin_yang.png" alt="empadão de frango">
                     <h1>Frango Ying Yang</h1>
                     <h2>Um pouco de batata, um pouco de salada</h2>
                     <h3>R$ 14,90</h3>
+                    <div class="iconeVerificado esconder"><ion-icon name="checkmark-circle"></ion-icon></div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="bloco clicavel" onclick="esconderSelecao();">
+                <img src="/assets/images/frango_yin_yang.png" alt="empadão de frango">
+                    <h1>Frango Ying Yang</h1>
+                    <h2>Um pouco de batata, um pouco de salada</h2>
+                    <h3>R$ 14,90</h3>
+                    <div class="iconeVerificado esconder"><ion-icon name="checkmark-circle"></ion-icon></div>
             </div>
         </div>
         <div class="container">
@@ -159,5 +168,8 @@
 
 </div>
     <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
