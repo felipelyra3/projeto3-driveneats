@@ -28,45 +28,48 @@
         <div class="titulo"><p>Primeiro, seu prato</p></div>
         <div class="pratos">
         <div class="container">
-            <div class="bloco" onclick="esconderSelecao();">
+            <div class="bloco" onclick="toggleBordaPrato(this)">
                 <img src="/assets/images/frango_yin_yang.png" alt="empadão de frango">
                     <h1>Frango Ying Yang</h1>
                     <h2>Um pouco de batata, um pouco de salada</h2>
-                    <h3>R$ 14,90</h3>
+                    <span class="precoComSifrao"><p>R$</p><h3>14.90</h3></span>
                     <div class="iconeVerificado esconder"><ion-icon name="checkmark-circle"></ion-icon></div>
             </div>
         </div>
         <div class="container">
-            <div class="bloco clicavel" onclick="esconderSelecao();">
+            <div class="bloco" onclick="toggleBordaPrato(this)">
                 <img src="/assets/images/frango_yin_yang.png" alt="empadão de frango">
-                    <h1>Frango Ying Yang</h1>
+                    <h1>Lasanha</h1>
                     <h2>Um pouco de batata, um pouco de salada</h2>
-                    <h3>R$ 14,90</h3>
+                    <span class="precoComSifrao"><p>R$</p><h3>15.90</h3></span>
                     <div class="iconeVerificado esconder"><ion-icon name="checkmark-circle"></ion-icon></div>
             </div>
         </div>
         <div class="container">
-            <div class="bloco">
+            <div class="bloco" onclick="toggleBordaPrato(this)">
                 <img src="/assets/images/frango_yin_yang.png" alt="empadão de frango">
-                    <h1>Frango Ying Yang</h1>
+                    <h1>Sushi</h1>
                     <h2>Um pouco de batata, um pouco de salada</h2>
-                    <h3>R$ 15,90</h3>
+                    <span class="precoComSifrao"><p>R$</p><h3>16.90</h3></span>
+                    <div class="iconeVerificado esconder"><ion-icon name="checkmark-circle"></ion-icon></div>
             </div>
         </div>
         <div class="container">
-            <div class="bloco">
+            <div class="bloco" onclick="toggleBordaPrato(this)">
                 <img src="/assets/images/frango_yin_yang.png" alt="empadão de frango">
-                    <h1>Frango Ying Yang</h1>
+                    <h1>Peixe</h1>
                     <h2>Um pouco de batata, um pouco de salada</h2>
-                    <h3>R$ 16,90</h3>
+                    <span class="precoComSifrao"><p>R$</p><h3>17.90</h3></span>
+                    <div class="iconeVerificado esconder"><ion-icon name="checkmark-circle"></ion-icon></div>
             </div>
         </div>
         <div class="container">
-            <div class="bloco">
+            <div class="bloco" onclick="toggleBordaPrato(this)">
                 <img src="/assets/images/frango_yin_yang.png" alt="empadão de frango">
                     <h1>Frango Ying Yang</h1>
                     <h2>Um pouco de batata, um pouco de salada</h2>
-                    <h3>R$ 17,90</h3>
+                    <span class="precoComSifrao"><p>R$</p><h3>18.90</h3></span>
+                    <div class="iconeVerificado esconder"><ion-icon name="checkmark-circle"></ion-icon></div>
             </div>
         </div>
     </div>
@@ -77,35 +80,35 @@
         <div class="titulo"><p>Agora, sua bebida</p></div>
         <div class="bebidas">
         <div class="container">
-            <div class="bloco">
+            <div class="bloco" onclick="toggleBordaBebida(this)">
                 <img src="/assets/images/coquinha_gelada.png" alt="empadão de frango">
                     <h1>Coquinha gelada</h1>
                     <h2>Lata 350ml</h2>
-                    <h3>R$ 4,90</h3>
+                    <span class="precoComSifrao"><p>R$</p><h3>4.90</h3></span>
             </div>
         </div>
         <div class="container">
-            <div class="bloco">
+            <div class="bloco" onclick="toggleBordaBebida(this)">
                 <img src="/assets/images/coquinha_gelada.png" alt="empadão de frango">
                     <h1>Coquinha gelada</h1>
                     <h2>Lata 350ml</h2>
-                    <h3>R$ 5,90</h3>
+                    <span class="precoComSifrao"><p>R$</p><h3>5.90</h3></span>
             </div>
         </div>
         <div class="container">
-            <div class="bloco">
+            <div class="bloco" onclick="toggleBordaBebida(this)">
                 <img src="/assets/images/coquinha_gelada.png" alt="empadão de frango">
                     <h1>Coquinha gelada</h1>
                     <h2>Lata 350ml</h2>
-                    <h3>R$ 6,90</h3>
+                    <span class="precoComSifrao"><p>R$</p><h3>6.90</h3></span>
             </div>
         </div>
         <div class="container">
-            <div class="bloco">
+            <div class="bloco" onclick="toggleBordaBebida(this)">
                 <img src="/assets/images/coquinha_gelada.png" alt="empadão de frango">
                     <h1>Coquinha gelada</h1>
                     <h2>Lata 350ml</h2>
-                    <h3>R$ 7,90</h3>
+                    <span class="precoComSifrao"><p>R$</p><h3>7.90</h3></span>
             </div>
         </div>
 
@@ -115,37 +118,37 @@
 
         <!-- INÍCIO DAS SOBREMESAS -->
         <div class="titulo"><p>Por fim, sua sobremesa</p></div>
-        <div class="sobremesa">
+        <div class="sobremesas">
         <div class="container">
-            <div class="bloco">
+            <div class="bloco" onclick="toggleBordaSobremesa(this)">
                 <img src="/assets/images/pudim.png" alt="pudim">
                     <h1>Pudim</h1>
                     <h2>Apenas pudim</h2>
-                    <h3>R$ 7,90</h3>
+                    <span class="precoComSifrao"><p>R$</p><h3>7.90</h3></span>
             </div>
         </div>
         <div class="container">
-            <div class="bloco">
+            <div class="bloco" onclick="toggleBordaSobremesa(this)">
                 <img src="/assets/images/pudim.png" alt="pudim">
                     <h1>Pudim</h1>
                     <h2>Apenas pudim</h2>
-                    <h3>R$ 8,90</h3>
+                    <span class="precoComSifrao"><p>R$</p><h3>8.90</h3></span>
             </div>
         </div>
         <div class="container">
-            <div class="bloco">
+            <div class="bloco" onclick="toggleBordaSobremesa(this)">
                 <img src="/assets/images/pudim.png" alt="pudim">
                     <h1>Pudim</h1>
                     <h2>Apenas pudim</h2>
-                    <h3>R$ 9,90</h3>
+                    <span class="precoComSifrao"><p>R$</p><h3>9.90</h3></span>
             </div>
         </div>
         <div class="container">
-            <div class="bloco">
+            <div class="bloco" onclick="toggleBordaSobremesa(this)">
                 <img src="/assets/images/pudim.png" alt="pudim">
                     <h1>Pudim</h1>
                     <h2>Apenas pudim</h2>
-                    <h3>R$ 10,90</h3>
+                    <span class="precoComSifrao"><p>R$</p><h3>10.90</h3></span>
             </div>
         </div>
 
@@ -159,10 +162,37 @@
 
     <!-- INÍCIO DO ENVIO -->
     <div class="envio">
-        <button><p>Selecione os 3 itens</p>
+        <button class="botaoCinza"><p>Selecione os 3 itens</p>
             <p>para fechar o pedido</p></button>
+        <button class="botaoVerde esconder" onclick="confirmacao()">Fechar Pedido</button>
     </div>
     <!-- FIM DO ENVIO -->
+
+
+
+    <!-- INÍCIO DA CONFIRMAÇÃO DO PEDIDO -->
+    <div class="confirmacaoDoPedido esconder">
+        <h1>Confirme seu pedido</h2>
+            <div class="confirmacaoPrato confirmacao">
+                <p class="nome">Prato</p>
+                <p class="preco">Preço</p>
+            </div>
+            <div class="confirmacaoBebida confirmacao">
+                <p class="nome">Prato</p>
+                <p class="preco">Preço</p>
+            </div>
+            <div class="confirmacaoSobremesa confirmacao">
+                <p class="nome">Prato</p>
+                <p class="preco">Preço</p>
+            </div>
+            <div class="confirmacaoTotal confirmacao">
+                <p class="nome">Total</p>
+                <p class="preco">Preço</p>
+            </div>
+        <button class="envioWhatsapp" onclick="envioWhatsapp()">Tudo certo, pode pedir!</button>
+        <h4 class="cancelar" onclick="cancelar()">Cancelar</h4>
+    </div>
+    <!-- FIM DA CONFIRMAÇÃO DO PEDIDO -->
 
     
 

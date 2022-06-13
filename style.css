@@ -13,6 +13,112 @@ body {
     border: 1px solid #EEEEEE;
 }
 
+.confirmacaoDoPedido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 377px;
+    height: 357px;
+    background: #50D074;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 9px;
+    position: fixed;
+    top: 204px;
+    left: 12px;
+
+}
+
+.confirmacaoDoPedido h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    margin: 21px;
+}
+
+.confirmacao {
+    display: flex;
+    justify-content: space-between;
+    width: 325px;
+    margin: 4px;
+}
+
+.confirmacaoPrato p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+
+    color: #FFFFFF;
+}
+
+.confirmacaoBebida p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+
+    color: #FFFFFF;
+}
+
+.confirmacaoSobremesa p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+
+    color: #FFFFFF;
+}
+
+.confirmacaoTotal {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+
+    color: #FFFFFF;
+}
+
+.cancelar {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 23px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.018em;
+
+color: #FFFFFF;
+}
+
+
+.confirmacaoDoPedido button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 0.018em;
+    width: 329px;
+    height: 52px;
+    color: #50D074;
+    background: #FFFFFF;
+    border-radius: 100px;
+    border: none;
+    margin: 12px;
+}
 
 
 .topo {
@@ -55,9 +161,7 @@ body {
     overflow-x: scroll;
 }
 
-.container {
-    
-}
+.container {}
 
 .bordaVerde {
     border-style: inset;
@@ -129,6 +233,21 @@ body {
     color: #000000;
 }
 
+.precoComSifrao {
+    display: flex;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-top: 18px;
+    color: #000000;
+}
+
+.precoComSifrao p {
+    margin-right: 4px;
+}
+
 .esconderIconeVerificado {
     display: none;
 }
@@ -149,16 +268,16 @@ body {
     overflow-x: scroll;
 }
 
-.bebidas h3 {
+.bebidas .precoComSifrao {
     margin-top: 20px;
 }
 
-.sobremesa {
+.sobremesas {
     display: flex;
     overflow-x: scroll;
 }
 
-.sobremesa h3 {
+.sobremesas .precoComSifrao {
     margin-top: 20px;
 }
 
@@ -174,7 +293,7 @@ body {
     z-index: 1;
 }
 
-.envio button {
+.botaoCinza {
     width: 364px;
     height: 61px;
     left: 25px;
@@ -197,4 +316,24 @@ body {
 
 .esconder {
     display: none;
+}
+
+.flag {
+    background-color: red;
+    /* display: none; */
+}
+
+.botaoVerde {
+    width: 364px;
+    height: 61px;
+    left: 25px;
+    bottom: 16px;
+    background-color: #32B72F;
+    border-radius: 50px;
+    border: 1px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
 }
